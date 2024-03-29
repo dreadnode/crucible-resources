@@ -11,7 +11,11 @@ The following resources are provided to get you started on interacting with the 
 
 ### Environment Setup
 
-There are a few options available to you when getting started with the provided Jupyter Notebook(s) in this GitHub repository.
+There are a few options available to you when getting started with the provided Jupyter Notebook(s).
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/dreadnode/crucible-resources/main)
+[![Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/dreadnode/crucible-resources/blob/main/test.ipynb)
+[![Kaggle](https://kaggle.com/static/images/open-in-kaggle.svg)](https://kaggle.com/kernels/welcome?src=https://github.com/dreadnode/crucible-resources/blob/main/test.ipynb)
 
 1. [*Easiest Difficulty*] Use the *MyBinder* link in the below subsection to launch a Jupyter Lab environment in the cloud with all the environment variables satisfied and no additional hardware/infrastructure startup issues.
 2. [*Schmedium Difficulty*] Use a cloud providers Jupyter Notebook offering (e.g., AWS SageMaker, Azure ML Studio, CoCalc, Databricks, Google Colab, IBM Watson, Kaggle Kernels, Saturn Cloud) and load the Notebooks into their infrastructure and create the Python environment with the requirements.txt file. Free tiers are common to get users onto the platform, but expect costs for increased compute requirements and additional features.
@@ -22,18 +26,18 @@ There are a few options available to you when getting started with the provided 
 Our Crucible community tier provides access to 10 rotating challenges that are pulled from previous DEFCON CTF challenge pools. The following is the recommended approach to interacting with the Crucible CTF challenges:
 
 1. Start with the test challenge to make sure you have good two way communications with our Crucible servers.
-2. Progress through Easy -> Hard challenges as you warm up and stretch your offensive AI/ML muscles. There is no guarantee that Easy, Medium, and Hard challenges will be present in the random 10 that have been chosen for the Community plan, in which case we encourage you to roll up your sleeves and still give it a go. Lean on the Recommended Reading section for some tutorial *spoiler alerts* to get you through tough spots.
+2. Progress through Easy -> Hard challenges as you warm up and stretch your offensive AI/ML muscles. There is no guarantee that Easy, Medium, and Hard challenges will be present in the random 10 that have been chosen for the Community plan, in which case we encourage you to roll up your sleeves and still give it a go. Dive into the Recommended Reading section for some tutorial *spoiler alerts* to get you through tough spots.
 3. Optional - should you feel like you have this content mastered, please reach out to us <support@dreadnode.io> to suggest new Community challenges or submit one for consideration.
 
 ## test.ipynb Jupyter Notebook
-
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/dreadnode/crucible-resources/main?urlpath=https%3A%2F%2Fgithub.com%2Fdreadnode%2Fcrucible-resources%2Fblob%2Fmain%2Ftest.ipynb)
 
 The test challenge is the recommended starting point for first time users of the CTF platform. This gets you comfortable with the API token issued to you at the start of your interaction with challenges. The Jupyter Notebook titled test.ipynb provides you an input field to copy and paste your API token into and then test your access to the backend servers to ensure that you are correctly forming your HTTP requests to submit follow-on flag submissions. This is the only purpose of this Notebook as it is provided, but feel free to build and experiment with this as you try additional challenges.
 
 ### Demo
 
-Quick demo video of launching from the MyBinder link, into their Jupyter Lab environment, and then executing the required cells for a successful completion of test.ipynb.
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/dreadnode/crucible-resources/main)
+
+Quick demo video of launching from the MyBinder link, into their JupyterLab environment, and then executing the required cells for a successful completion of test.ipynb.
 
 ## Recommended Reading / References
 
