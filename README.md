@@ -27,7 +27,7 @@ Our Crucible community tier provides access to 10 rotating challenges that are p
 
 ## test.ipynb Jupyter Notebook
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/dreadnode/crucible-resources/HEAD?urlpath=https%3A%2F%2Fgithub.com%2Fdreadnode%2Fcrucible-resources%2Fblob%2Fmain%2Ftest.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/dreadnode/crucible-resources/main?urlpath=https%3A%2F%2Fgithub.com%2Fdreadnode%2Fcrucible-resources%2Fblob%2Fmain%2Ftest.ipynb)
 
 The test challenge is the recommended starting point for first time users of the CTF platform. This gets you comfortable with the API token issued to you at the start of your interaction with challenges. The Jupyter Notebook titled test.ipynb provides you an input field to copy and paste your API token into and then test your access to the backend servers to ensure that you are correctly forming your HTTP requests to submit follow-on flag submissions. This is the only purpose of this Notebook as it is provided, but feel free to build and experiment with this as you try additional challenges.
 
