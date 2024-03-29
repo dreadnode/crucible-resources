@@ -42,7 +42,7 @@ The [test challenge](/test-challenge) is the recommended starting point for firs
 
 Quick demo video of launching from the MyBinder link, into their JupyterLab environment, and then executing the required cells for a successful completion of test.ipynb.
 
-
+<img src="./media_collateral/demo_vids/test_challenge_demo.gif" alt="Test Challenge Demo">
 
 ## Recommended Reading / References
 
